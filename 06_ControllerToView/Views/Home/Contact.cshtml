@@ -1,0 +1,28 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Contact</title>
+</head>
+<body>
+    <div> 
+        <h2> Contact Page</h2>
+
+        <div>
+
+            <b> Ad-Soyad : </b>@Html.TextBox("text2") <br />
+            <b>Bool Veri Türü :</b> @Html.CheckBox("check2")
+        </div>
+
+        <div>
+            @Html.ActionLink("Blog sayfasina git", "Blog")
+        </div>
+    </div>
+</body>
+</html>

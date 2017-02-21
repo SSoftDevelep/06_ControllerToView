@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Homepage</title>
+</head>
+<body>
+    <div>
+        <h2> Home Page</h2>
+        <hr />
+        <div>
+            @*<b> Ad-Soyad : </b>@ViewData["text1"].ToString()  <br />
+                <b>Bool Veri Türü :</b> @ViewData["check1"]*@
+
+            @*<b> Ad-Soyad : </b>@ViewBag.text1  <br />
+                <b>Bool Veri Türü :</b> @ViewBag.check1*@
+
+
+            <b> Ad-Soyad : </b>@TempData["text1"] <br />
+            <b>Bool Veri Türü :</b> @TempData["check1"]
+        </div>
+    </div>
+</body>
+</html>
